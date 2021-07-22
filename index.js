@@ -34,4 +34,4 @@ else {
   document.querySelector("#result").innerHTML="Draw!";
   document.querySelector("#result").style.visibility="visible";
 }
-}, 1400);
+}, 1300);
