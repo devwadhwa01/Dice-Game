@@ -23,15 +23,12 @@ setTimeout(function(){
 if(no1>no2)
 {
   document.querySelector("#result").innerHTML="Player 1 wins!";
-  document.querySelector("#result").style.visibility="visible";
 }
 else if(no2>no1)
 {
   document.querySelector("#result").innerHTML="Player 2 wins!";
-  document.querySelector("#result").style.visibility="visible";
 }
 else {
   document.querySelector("#result").innerHTML="Draw!";
-  document.querySelector("#result").style.visibility="visible";
 }
-}, 1300);
+}, 1400);

@@ -23,24 +23,27 @@ body{
   font-size: 6rem;
 }
 
+.row{
+  padding: 1% 0 4%;
+}
+
 .player{
   color: #FFD369;
-  padding: 1% 0 4%;
+  padding: 0 0 5%;
   font-family: 'Orbitron', sans-serif;
 }
 
 .firstDice{
-  width:55%;
+  width:65%;
 }
 
 .secondDice{
-  width:55%;
+  width:65%;
 }
 
 #result{
-  visibility: hidden;
   font-family: 'Orbitron', sans-serif;
   color: #FFD369;
   position: relative;
-  padding-top: 10%;
+  padding: 10% 0 10%;
 }
