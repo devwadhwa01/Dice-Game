@@ -38,6 +38,7 @@ body{
 }
 
 #result{
+  visibility: hidden;
   font-family: 'Orbitron', sans-serif;
   color: #FFD369;
   position: relative;

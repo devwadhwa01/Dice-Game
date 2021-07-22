@@ -60,15 +60,21 @@ else
   document.querySelector(".secondDice").setAttribute("src","images/dice6.gif");
 }
 
+//Timeout
+setTimeout(function(){
 // Declaring the winner
 if(no1>no2)
 {
   document.querySelector("#result").innerHTML="Player 1 wins!";
+  document.querySelector("#result").style.visibility="visible";
 }
 else if(no2>no1)
 {
   document.querySelector("#result").innerHTML="Player 2 wins!";
+  document.querySelector("#result").style.visibility="visible";
 }
 else {
   document.querySelector("#result").innerHTML="Draw!";
+  document.querySelector("#result").style.visibility="visible";
 }
+}, 1400);
